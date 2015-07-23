@@ -1,0 +1,47 @@
+#header-img {
+    width: auto;
+    height: 45px;
+    margin: 0 0 0 10px;
+}
+
+.menu-icon {
+    height: 56px;
+    float: left;
+}
+
+.top-bar {
+    background: none !important;
+    height: 58px !important;
+    line-height: 58px !important;
+    margin-bottom: 0 !important;
+}
+ 
+/** Removes black background on menu bar **/
+.top-bar-section li {
+    background: none !important;
+    text-transform: uppercase !important;
+}
+.menu-item {
+    color: #ff0000 !important;
+}
+ 
+/** Removes black background on menu item **/
+.top-bar-section li a:not(.button) {
+    background: none !important;
+    line-height: 58px !important;
+    padding: 0 27px !important;
+}
+
+.has-dropdown {
+    color: #ff0000 !important;
+}
+
+.dropdown {
+    color: #ff0000 !important;
+}
+
+.bg {
+    width: 100%;
+    height: 1000px;
+    background: slategray;
+}
