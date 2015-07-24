@@ -1,47 +1,54 @@
 #header-img {
     width: auto;
-    height: 45px;
-    margin: 0 0 0 10px;
+    height: 50px;
+    margin: 4px 4px 4px 96px;
 }
 
-.menu-icon {
-    height: 56px;
-    float: left;
-}
 
 .top-bar {
-    background: none !important;
+    background: white !important;
     height: 58px !important;
-    line-height: 58px !important;
-    margin-bottom: 0 !important;
 }
- 
+
+.toggle-topbar {
+    background: none !important;
+}
+
 /** Removes black background on menu bar **/
 .top-bar-section li {
     background: none !important;
-    text-transform: uppercase !important;
+    height: 58px !important;
+}
+.top-bar-section li:hover {
+    background: gray !important;
 }
 .menu-item {
-    color: #ff0000 !important;
+    color: black !important;
+    height: 58px !important;
+    padding-top: 8px!important;
 }
  
 /** Removes black background on menu item **/
 .top-bar-section li a:not(.button) {
     background: none !important;
-    line-height: 58px !important;
-    padding: 0 27px !important;
 }
 
-.has-dropdown {
-    color: #ff0000 !important;
+.has-dropdown li{
+    background: white !important;
 }
-
-.dropdown {
-    color: #ff0000 !important;
+.has-dropdown li:hover{
+    background: gray !important;
 }
 
 .bg {
     width: 100%;
-    height: 1000px;
+    height: 1800px;
     background: slategray;
+}
+
+nav.top-bar {
+text-align:center;
+}
+section.top-bar-section {
+display: inline-block;
 }

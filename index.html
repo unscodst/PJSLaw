@@ -7,7 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Patty Smith Law</title>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/foundation.css" />                
+        <link rel="stylesheet" href="css/foundation.css" />
+          
         <script src="js/vendor/modernizr.js"></script>
 
 
@@ -34,19 +35,22 @@ http://www.oacdl.org/aws/OACDL/pt/sp/Home_Page
 
     </head>
     <body>
-        <div>
-            <nav class="top-bar" data-topbar role="navigation">
+        <div class="sticky">
+            <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: small, medium, large">
                 <ul class="title-area">
                     <li class="name">
-                        <img  id="header-img" src="img/logo.jpg">
+                        <a href="#">
+                            <img id="header-img" src="img/logo.jpg">
+                        </a>
+                        
                     </li>
-                    <li class="toggle-topbar menu-icon"><a href="#">
-                        <span>Menu</span>
+                    <li class="toggle-topbar menu-item"><a href="#">
+                        <span class="menu-item">Menu</span>
                         </a>
                     </li>
                 </ul>
                 <section class="top-bar-section">
-                    <ul class="right">
+                    <ul>
                         <li class="name">
                             <a class="menu-item" href="#">Attorney Profile</a>
 
@@ -59,6 +63,14 @@ http://www.oacdl.org/aws/OACDL/pt/sp/Home_Page
                                 </li>
                                 <li class="name">
                                     <a class="menu-item" href="#">Felony - Criminal Trial</a>
+                                </li>                                <li class="name">
+                                    <a class="menu-item" href="#">Misdemeanors - Criminal Trial</a>
+                                </li>                                <li class="name">
+                                    <a class="menu-item" href="#">Traffic - Criminal Trial</a>
+                                </li>                                <li class="name">
+                                    <a class="menu-item" href="#">Juvenile - Criminal Trial</a>
+                                </li>                                <li class="name">
+                                    <a class="menu-item" href="#">Appellate</a>
                                 </li>
                             </ul>
                         </li>
@@ -69,14 +81,6 @@ http://www.oacdl.org/aws/OACDL/pt/sp/Home_Page
                             <a class="menu-item" href="#">Contact</a>
                         </li>
 
-
-                        <li class="has-dropdown">
-                            <a class="menu-item" href="#">Right Button Dropdown</a>
-                            <ul class="dropdown">
-                                <li><a class="menu-item"  href="#">First link in dropdown</a></li>
-                                <li class="active"><a class="menu-item" href="#">Active link in dropdown</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </section>
             </nav>
