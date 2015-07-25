@@ -14,6 +14,52 @@ body {
     margin: 5px;
 }
 
+#portrait {
+    width: 30%;
+    clear: both;
+    float: left;
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#intro-header {
+    font-size: 1.2em;
+    
+}
+
+#intro {
+    margin: 10px;
+}
+
+
+.fi-page-search {
+    font-size: 30px;
+}
+.fi-social-linkedin {
+    font-size: 30px;
+}
+.fi-social-facebook {
+    font-size: 30px;
+    color: #006591;
+}
+.fi-social-twitter {
+    font-size: 30px;
+    padding-right: -50px;
+}
+
+.fi-mail {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.fi-results {
+    font-size: 20px;
+    padding-right: 10px;
+}
 
 /*
 
