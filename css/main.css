@@ -1,4 +1,23 @@
-#header-img {
+body {
+    background: slategray;
+}
+
+#allocades {
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.allocades-even {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+
+/*
+
+}#header-img {
     width: auto;
     height: 50px;
     margin: 4px 4px 4px 96px;
@@ -12,9 +31,11 @@
 
 .toggle-topbar {
     background: none !important;
+
 }
 
 /** Removes black background on menu bar **/
+/*
 .top-bar-section li {
     background: none !important;
     height: 58px !important;
@@ -27,9 +48,11 @@
     height: 58px !important;
     padding-top: 8px!important;
 }
- 
+
 /** Removes black background on menu item **/
-.top-bar-section li a:not(.button) {
+
+/*
+}.top-bar-section li a:not(.button) {
     background: none !important;
 }
 
@@ -39,16 +62,13 @@
 .has-dropdown li:hover{
     background: gray !important;
 }
+**/
 
-.bg {
-    width: 100%;
-    height: 1800px;
-    background: slategray;
-}
 
+/*
 nav.top-bar {
-text-align:center;
+    text-align:center;
 }
 section.top-bar-section {
-display: inline-block;
+    display: inline-block;
 }
