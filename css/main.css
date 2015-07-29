@@ -41,6 +41,7 @@ body {
 }
 .fi-social-linkedin {
     font-size: 30px;
+
 }
 .fi-social-facebook {
     font-size: 30px;
@@ -59,6 +60,18 @@ body {
 .fi-results {
     font-size: 20px;
     padding-right: 10px;
+}
+
+.social {
+    height: 45px;
+}
+
+#headericon {
+    margin-right: 10px;
+}
+
+#introcontent {
+    
 }
 
 /*
