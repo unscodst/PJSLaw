@@ -82,8 +82,12 @@ body {
     margin-bottom: 20px;
 }
 .tel {
-    float: left;
-    clear: both;
+    color: white;
+    margin: 10px;
+}
+
+#free {
+    
 }
 
 
