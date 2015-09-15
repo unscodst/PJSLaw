@@ -5,7 +5,7 @@ body {
 #allocades {
     margin: 10px;
     text-align: center;
-    
+
 }
 
 .allocades-even {
@@ -28,7 +28,7 @@ body {
 
 #intro-header {
     font-size: 1.2em;
-    
+
 }
 
 #intro {
@@ -96,60 +96,121 @@ body {
 
 
 
-/*
-
-}#header-img {
-    width: auto;
-    height: 50px;
-    margin: 4px 4px 4px 96px;
-}
-
-
 .top-bar {
-    background: white !important;
-    height: 58px !important;
+    background: #FFCBCB !important;
+    overflow: visible;
 }
 
-.toggle-topbar {
-    background: none !important;
 
-}
 
-/** Removes black background on menu bar **/
-/*
-.top-bar-section li {
-    background: none !important;
-    height: 58px !important;
-}
-.top-bar-section li:hover {
-    background: gray !important;
-}
-.menu-item {
-    color: black !important;
-    height: 58px !important;
-    padding-top: 8px!important;
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #EF6E6E !important;
+    line-height: 2.8125rem;
+    padding: 0 0.9375rem;
 }
 
-/** Removes black background on menu item **/
 
-/*
-}.top-bar-section li a:not(.button) {
-    background: none !important;
+.top-bar-section ul li {
+    background: lightblue !important;
+    height: 45px;
 }
 
-.has-dropdown li{
-    background: white !important;
+.top-bar-section ul {
+    background-color: aquamarine !important;
 }
-.has-dropdown li:hover{
-    background: gray !important;
-}
-**/
+
+
+
 
 
 /*
-nav.top-bar {
-    text-align:center;
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+border-left: solid 1px red;
+border-right: solid 1px red;
 }
-section.top-bar-section {
-    display: inline-block;
+
+.top-bar-section .has-form {
+background:yellow;
 }
+
+.top-bar-section li a:not(.button):hover {
+background:gray !important;
+}
+
+.top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+color: white;
+background: red !important;
+}
+.top-bar-section ul.dropdown li a:hover:not(.button) {
+background-color: green !important;
+}
+*/
+
+
+
+/*
+Changes top most bar color
+.top-bar {
+background-color: #94aaff !important;
+}
+*/
+
+/*
+Changes unordered list color in top bar sections
+.top-bar-section ul {
+background-color: #3ffff0 !important;
+}
+*/
+
+/*
+Changes color or right side unordered lists
+.top-bar-section ul.right {
+background-color: #ff45ea !important;
+}
+*/
+
+/*
+Changes colors of <a> tags within a list item
+.top-bar-section li a:not(.button) {
+background-color: #3cc671 !important;
+}
+*/
+
+/*
+Changes color of top bar section active list item within unordered lists
+.top-bar-section ul li.active > a {
+background-color: #e5ff78 !important;
+
+}
+*/
+
+/*
+Change color or dropdown menu title when hover over items in the dropdown.
+.top-bar-section li:hover a {
+background-color: #b56bff !important;
+}
+*/
+
+/*
+Changes color of topbar section uordered list list items
+.top-bar-section ul li > a {
+background-color: #4ff1ff !important;
+}
+*/
+
+/*
+Changes the color of undordered items in the dropdown menu
+.top-bar-section ul.dropdown {
+background-color: #c7922d !important;
+}
+*/
+
+/*
+Changes the background color of the dropdown menu arrow
+.top-bar-section .has-dropdown > a:after {
+background-color: #eb355f !important;
+}
+*/
+
+
